@@ -1,0 +1,72 @@
+// RWD ============================================
+$gutter:8vw;
+$pd-normal-sm: 50px;
+$pd-normal-lg: 4.79vw;
+//---------
+$pd-xs:32px;
+$pd-md:70px;
+$pd-lg:4.79vw;
+$pd-xl:4.79vw;
+$pd-xxl:4.79vw;
+$pd-xxxl:4.79vw;
+// header ============================================
+$hh-xs:55px;
+$hh-xxxl:60px;
+$hhr-md:60px;
+$hhr-xxl:60px;
+$hhr-xxxl:80px;
+// RWD ============================================
+$xs:0;
+$sm:576px;
+$md:740px;
+$lg:980px;
+$xl:1100px; //laptop 要照顧 1280 / 1366 / 1440 // pad pro
+$xxl:1380px; //大螢幕 要照顧 1680 / 1920
+$xxxl:1700px;
+$super:2200px;
+$fullhd:1800px;
+//MAX-WIDHT ============================================
+$mxw-sm:100%;
+$mxw-md:100%;
+$mxw-lg:100%;
+$mxw-xl:100%;
+$mxw-xxl:100%;
+$mxw-xxxl:100%;
+$mxw-super:$mxw-xxxl;
+//sass-mq ============================================
+$mq-responsive: true;
+$mq-breakpoints: ( "xs": $xs, "sm": $sm, "md": $md, "lg": $lg, "xl": $xl, "xxl": $xxl, "xxxl": $xxxl, "super": $super);
+$puredriller-breakpoints: ( xs: $xs, sm: $sm, md: $md, lg: $lg, xl: $xl, xxl:$xxl, xxxl:$xxxl, super:$super) !default;
+// $puredriller-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1200px, xxxl: 1500px, super: 1920px) !default;
+$puredriller-max-widths: ( sm: $mxw-sm, md: $mxw-md, lg: $mxw-lg, xl: $mxw-xl, xxl: $mxw-xxl, xxxl: $mxw-xxxl, super: $mxw-super) !default;
+$font-family: 'Noto Sans TC',
+'PingFang',
+'PingFangTC',
+'Microsoft JhengHei',
+Helvetica,
+Arial,
+sans-serif;
+$font-en: 'Lato',
+'Noto Serif TC',
+serif;
+
+/*
+font-family: 'Cormorant Infant', serif;
+font-family: 'Noto Serif TC', serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+// color
+$color-main:#00479d;
+$color-light:#4d5e45;
+$color-black:#000;
+$color-dark:#313131;
+$color-gray:#5f5f5f;
+$color-white:#fafafa;
+$color-border:#d8d8d8; //rgb(214, 214, 214); //rgba(187, 188, 188, 0.5);
+$color-border-light:#bbbcbc;
+$border-trsp :rgba($color-border, 0.6);
+$color-bg:#f6f6f6;
+$rd:2px;
+$shadow:0 12px 17px 0 rgba(0, 0, 0, 0.05);
+$ease: cubic-bezier(0.22, 1, 0.36, 1);

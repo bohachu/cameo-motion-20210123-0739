@@ -1,0 +1,313 @@
+@mixin h_limit {
+    @media (min-width: $xl) and ( max-height: 599px) {
+        @content
+    }
+}
+
+;
+@mixin h_600 {
+    @media (min-width: $xl) and ( min-height: 600px) {
+        @content
+    }
+}
+
+;
+@mixin h_700 {
+    @media (min-width: $xl) and ( min-height: 700px) {
+        @content
+    }
+}
+
+;
+@mixin h_800 {
+    @media (min-width: $xl) and ( min-height: 800px) {
+        @content
+    }
+}
+
+;
+@mixin h_900 {
+    @media (min-width: $xl) and ( min-height: 900px) {
+        @content
+    }
+}
+
+;
+@mixin h_1000 {
+    @media (min-width: $xl) and ( min-height: 1000px) {
+        @content
+    }
+}
+
+;
+@mixin sm {
+    @media (min-width: $sm) {
+        @content
+    }
+}
+
+;
+@mixin md {
+    @media (min-width: $md) {
+        @content
+    }
+}
+
+;
+@mixin lg {
+    @media (min-width: $lg) {
+        @content
+    }
+}
+
+;
+@mixin xl {
+    @media (min-width: $xl) {
+        @content
+    }
+}
+
+;
+@mixin xxl {
+    @media (min-width: $xxl) {
+        @content
+    }
+}
+
+;
+@mixin xxxl {
+    @media (min-width: $xxxl) {
+        @content
+    }
+}
+
+;
+@mixin fullhd {
+    @media (min-width: $fullhd) {
+        @content
+    }
+}
+
+;
+@mixin super {
+    @media (min-width: $super) {
+        @content
+    }
+}
+
+;
+@mixin ip5 {
+    @media (min-width: 0) and (max-width: 350px) {
+        @content
+    }
+}
+
+;
+@mixin xs_sm {
+    @media (min-width: 0) and (max-width: $sm - 1) {
+        @content
+    }
+}
+
+;
+@mixin xs_sm_h {
+    @media (min-width: 0) and (max-width: $sm - 1) and (orientation: landscape) {
+        @content
+    }
+}
+
+;
+@mixin xs_sm_v {
+    @media (min-width: 0) and (max-width: $sm - 1) and (orientation: portrait) {
+        @content
+    }
+}
+
+;
+@mixin xs_md {
+    @media (min-width: 0) and (max-width: $md - 1) {
+        @content
+    }
+}
+
+;
+@mixin xs_md_h {
+    @media (min-width: 0) and (max-width: $md - 1) and (orientation: landscape) {
+        @content
+    }
+}
+
+;
+@mixin xs_md_v {
+    @media (min-width: 0) and (max-width: $md - 1) and (orientation: portrait) {
+        @content
+    }
+}
+
+;
+@mixin xs_lg {
+    @media (min-width: 0) and (max-width: $lg - 1) {
+        @content
+    }
+}
+
+;
+@mixin xs_xl {
+    @media (min-width: 0) and (max-width: $xl - 1) {
+        @content
+    }
+}
+
+;
+@mixin xs_xl_v {
+    @media (min-width: 0) and (max-width: $xl - 1) and (orientation: portrait) {
+        @content
+    }
+}
+
+;
+@mixin xs_xxl {
+    @media (min-width: 0) and (max-width: $xxl - 1) {
+        @content
+    }
+}
+
+;
+@mixin xs_xxxl {
+    @media (min-width: 0) and (max-width: $xxxl - 1) {
+        @content
+    }
+}
+
+;
+@mixin sm_md {
+    @media (min-width: $sm) and (max-width: $md - 1) {
+        @content
+    }
+}
+
+;
+@mixin sm_lg {
+    @media (min-width: $sm) and (max-width: $lg - 1) {
+        @content
+    }
+}
+
+;
+@mixin sm_xl {
+    @media (min-width: $sm) and (max-width: $xl - 1) {
+        @content
+    }
+}
+
+;
+@mixin sm_xxl {
+    @media (min-width: $sm) and (max-width: $xxl - 1) {
+        @content
+    }
+}
+
+;
+@mixin md_lg {
+    @media (min-width: $md) and (max-width: $lg - 1) {
+        @content
+    }
+}
+
+;
+@mixin md_xl {
+    @media (min-width: $md) and (max-width: $xl - 1) {
+        @content
+    }
+}
+
+;
+@mixin md_xl_v {
+    @media (min-width: $md) and (max-width: $xl - 1) and (orientation: portrait) {
+        @content
+    }
+}
+
+;
+@mixin md_xxl_v {
+    @media (min-width: $md) and (max-width: $xxl - 1) and (orientation: portrait) {
+        @content
+    }
+}
+
+;
+@mixin md_xl_h {
+    @media (min-width: $md) and (max-width: $xl - 1) and (orientation: landscape) {
+        @content
+    }
+}
+
+;
+@mixin md_xxl_h {
+    @media (min-width: $md) and (max-width: $xxl - 1) and (orientation: landscape) {
+        @content
+    }
+}
+
+;
+@mixin md_xxl {
+    @media (min-width: $md) and (max-width: $xxl - 1) {
+        @content
+    }
+}
+
+;
+@mixin md_xxxl {
+    @media (min-width: $md) and (max-width: $xxxl - 1) {
+        @content
+    }
+}
+
+;
+@mixin lg_xl {
+    @media (min-width: $lg) and (max-width: $xl - 1) {
+        @content
+    }
+}
+
+;
+@mixin lg_xxl {
+    @media (min-width: $lg) and (max-width: $xxl - 1) {
+        @content
+    }
+}
+
+;
+@mixin lg_v {
+    @media (min-width: $lg) and (orientation: portrait) {
+        @content
+    }
+}
+
+;
+@mixin lg_h {
+    @media (min-width: $lg) and (orientation: landscape) {
+        @content
+    }
+}
+
+;
+@mixin xl_xxl {
+    @media (min-width: $xl) and (max-width: $xxl - 1) {
+        @content
+    }
+}
+
+;
+@mixin xl_xxxl {
+    @media (min-width: $xl) and (max-width: $xxxl - 1) {
+        @content
+    }
+}
+
+;
+@mixin xxl_xxxl {
+    @media (min-width: $xxl) and (max-width: $xxxl - 1) {
+        @content
+    }
+}
